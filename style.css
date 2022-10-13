@@ -1,0 +1,91 @@
+:root {
+    --color: rgba(130,200,130)
+  }
+  
+  html, *, ::before, ::after{
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    background-color: var(--color);
+    text-align: center
+    }
+  
+  a { 
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .block {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #quote-box {
+    width: 580px;
+  }
+  
+  #mainBlock {
+    background-color: white;
+    margin-top: 30vh;
+    padding: 40px 0 35px;
+    border-radius: 5px;
+  }
+  
+  #mainContent {
+    letter-spacing: 1.1px;
+    font-family: sans-serif;
+    padding: 20px 35px;
+  }
+  
+  #text{
+    font-size: 200%;
+    font-weight: 400;
+  }
+  
+  #attention {
+    font-weight: 900
+  }
+  
+  #author {
+    font-size: 110%;
+    font-weight: lighter;
+    padding-top: 20px
+  }
+  
+  #buttons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:10px
+  }
+  
+  #tweet-quote {
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  #new-quote {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    padding-top: 10px;
+    font-size: 85%;
+    font-family: sans-serif;
+    font-weight: lighter
+  }
+  
+  .whiteFont {
+    color: white;
+    background-color: var(--color)
+  }
+  
+  #mainContent {
+    color: var(--color)
+  }
